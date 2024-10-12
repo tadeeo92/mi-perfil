@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Perfil de [Nombre]</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Una breve descripción sobre ti. Puedes incluir tus intereses, valores y lo que te motiva.</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>
+                <h3>Pasatiempo 1</h3>
+                <p>Descripción del Pasatiempo, y logros.</p>
+            </li>
+            <li>
+                <h3>Pasatiempo 2</h3>
+                <p>Descripción del Pasatiempo, y logros.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="carrusel">
+        <h2>Galería de Imágenes</h2>
+        <div class="carrusel-container">
+            <img id="imagen-carrusel" src="imagen1.jpg" alt="Imagen 1">
+            <div class="botones">
+                <button id="prev" onclick="cambiarImagen(-1)">&#10094;</button>
+                <button id="next" onclick="cambiarImagen(1)">&#10095;</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="educacion">
+        <h2>Educación</h2>
+        <ul>
+            <li>
+                <h3>Grado en [Campo de Estudio]</h3>
+                <p>Escuelas, año de graduación.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Habilidad 1</li>
+            <li>Habilidad 2</li>
+            <li>Habilidad 3</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Email: [tuemail@example.com]</p>
+        <p>Teléfono: [tu número]</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
